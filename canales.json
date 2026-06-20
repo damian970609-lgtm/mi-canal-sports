@@ -1,4 +1,6 @@
+
 {
+<<<<<<< HEAD
     "metadata": {
         "ultima_actualizacion": "2026-06-20 19:14:00",
         "fuentes_consultadas": 1
@@ -6,3 +8,14 @@
     "deportes_live": [],
     "eventos": []
 }
+=======
+  "principal": "TU_ENLACE_URL_AQUÍ.m3u8",
+  "respaldo": "TU_ENLACE_URL_AQUÍ.m3u8",
+  "fuentes_json": [
+    "https://tu-web-de-datos1.com/lista.json",
+    "https://tu-web-de-datos2.com/datos.json"
+  ],
+  "ultima_actualizacion": "2026-06-20",
+  "estado": "activo"
+}
+>>>>>>> 3f4461a931125bfdd0f4528852d04359135fca52

@@ -1,52 +1,48 @@
-import requests
 import json
+import os
+import requests
 import logging
 from datetime import datetime
 
-logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
-HEADERS = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
+# Configuración
+ARCHIVO_JSON = "canales.json"
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-# Configuración Maestra
-FUENTES_EXTERNAS = [
-    "https://iptv-org.github.io/iptv/regions/amer.m3u",
-    "https://iptv-org.github.io/iptv/regions/eur.m3u",
-    "https://iptv-org.github.io/iptv/regions/asia.m3u",
-    "https://iptv-org.github.io/iptv/regions/afr.m3u",
-    "https://iptv-org.github.io/iptv/regions/oce.m3u"
+# Fuentes de datos
+FUENTES = [
+    "https://iptv-org.github.io/iptv/regions/us.m3u", # Ejemplo, ajusta según necesites
 ]
 
-ESTRUCTURA = {"Deportes_Live": [], "Eventos_Especiales": [], "TV_General": []}
-
-def es_deporte(texto):
-    return any(k in texto.lower() for k in ['sport', 'futbol', 'soccer', 'bein', 'espn', 'tnt', 'fox', 'gol'])
-
-def trabajar():
-    # 1. Proceso de Fútbol Libre / Jeinz Macías (Prioridad)
-    logging.info("Sincronizando fuentes premium...")
-    # (El script buscará dinámicamente aquí)
-    ESTRUCTURA["Deportes_Live"].append({"label": "En vivo - Evento 1", "stream": "procesando_link", "protected": True})
-
-    # 2. Proceso de TDTChannels
+def actualizar():
+    """Descarga datos, procesa y guarda en el JSON."""
+    logging.info("Iniciando actualización desde fuentes externas...")
+    
+    # Aquí irá tu lógica para extraer los links de las webs
+    # Por ahora, estructuramos el JSON de forma profesional
+    data = {
+        "metadata": {
+            "ultima_actualizacion": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            "fuentes_consultadas": len(FUENTES)
+        },
+        "deportes_live": [],
+        "eventos": []
+    }
+    
     try:
-        data = requests.get("https://www.tdtchannels.com/lists/tv.json", headers=HEADERS).json()
-        for c in data.get('channels', []):
-            if es_deporte(c['name']):
-                ESTRUCTURA["Deportes_Live"].append({"label": c['name'], "stream": c['url'], "protected": True})
-    except: pass
-
-    # 3. Proceso de Listas IPTV-ORG
-    for url in FUENTES_EXTERNAS:
-        try:
-            res = requests.get(url, headers=HEADERS).text
-            for line in res.split('\n'):
-                if "#EXTINF" in line and es_deporte(line):
-                    ESTRUCTURA["Deportes_Live"].append({"label": line.split(',')[-1].strip(), "stream": "vincular_source", "protected": True})
-        except: continue
-
-    # 4. Guardado Final
-    with open('canales_privados.json', 'w') as f:
-        json.dump(ESTRUCTURA, f, indent=2)
-    logging.info("Sistema Maestro trabajando en segundo plano.")
+        # Guardar archivo
+        with open(ARCHIVO_JSON, 'w') as f:
+            json.dump(data, f, indent=4)
+        logging.info(f"✅ Archivo {ARCHIVO_JSON} guardado correctamente.")
+        
+        # Ejecutar script de subida
+        print("🚀 Sincronizando con GitHub...")
+        if os.system('./push.sh') == 0:
+            print("✨ ¡Proceso finalizado con éxito!")
+        else:
+            logging.error("❌ Error al ejecutar push.sh")
+            
+    except Exception as e:
+        logging.error(f"⚠️ Error crítico: {e}")
 
 if __name__ == "__main__":
-    trabajar()
+    actualizar()
