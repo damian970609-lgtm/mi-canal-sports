@@ -1,0 +1,2946 @@
+{
+  "Deportes_Live": [
+    {
+      "label": "En vivo - Evento 1",
+      "stream": "procesando_link",
+      "protected": true
+    },
+    {
+      "label": "30A Golf Kingdom (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "ACCDN (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "ACL Cornhole TV (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "ARTN TV (1080p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "AS3 Sport TV (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "ATN Televisi\u00f3n (720p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Awapa Sports TV (1080p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "beIN Sports USA (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "beIN SPORTS XTRA (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "beIN Sports XTRA en Espanol (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "BEK TV Sports West (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Bellator MMA",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Billiard TV (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Canal do Inter (720p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "CazeTV (1080i)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "CBS Sports Golazo Network (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "CBS Sports HQ (1080p) [Geo-blocked]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "CDN Deportes (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Claro Sports (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "ColimdoT TV (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Combate Global",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "CT-N TV Conneticut (720p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Deportes TVC (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "DirecTV Sports (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "DraftKings Network (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "DSports Uruguay",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "ESPN8 The Ocho (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "ESPN Deportes (360p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "ESPNU (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "F1 Channel (1080p) [Geo-blocked]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "FanDuel Racing",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "FanDuel TV (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "FIFA+ Hispanic America (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "FIFA+ Portuguese (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "FIFA+ United States (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Fight Network (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "FITE 24/7 (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "FloHockey 24/7 (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "FloRacing 24/7 (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Fox (540p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "FOX 2 San Francisco CA (KTVU) (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "FOX 11 Green Bay WI (WLUK) (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "FOX 13 Seattle WA (KCPQ) (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "FOX 23 Cape Girardeau MO (KBSI-DT1) (720p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Fox 25 Boston (WFXT-TV) (1080p) [Geo-blocked]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "FOX 25 Oklahoma City OK (KOKH) (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "FOX 26 Visalia CA (KMPH) (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "FOX 45 Baltimore MD (WBFF) (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Fox Deportes (1280p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Fox News Channel (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Fox News Radio (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Fox Soul (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "FOX Sports (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Fox Sports 1 (1280p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Fox Sports 2 (480p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Fox Weather (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "FTF Sports (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "FTV (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "fubo Sports Network (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "FUEL TV (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Game+ (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "ge Fast (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Golden Community Television (GCO.tv) (Golden CO) (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Golden TV (240p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Golf Channel Latin America",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Hard Knocks (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Horizon Sports (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "ITV Deportes (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "KCMN-LD6 (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "KDFW-DT1 (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "KTTV-DT1 (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Lacrosse TV (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "LiveNOW from FOX (1080p) [Geo-blocked]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Lucha Libre AAA",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Meridiano TV (480p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Midpen Media Center Youth Education and Sports Channel 28 (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "MLB Channel (1080p) [Geo-blocked]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "MMA-TV (576p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "MSG (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Multivisi\u00f3n Sports (720p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "NBA TV (1080p) [Geo-blocked]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "NBA TV Canada (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "NBC Sports NOW (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "NESN (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "NFL Channel (1080p) [Geo-blocked]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "NHRA TV (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Ovacion TV (720p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Overtime (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Pac 12 Insider (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "PBR RidePass (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "PGA Tour (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Pluto TV Competition",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Pluto TV Deportes",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Pluto TV E-Sports",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Pluto TV Esportes",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Pluto TV Snooker 900",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Poker Go (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Portalfoxmix",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Premiere FC 1",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Premiere FC 2",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Premiere FC 3",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Premiere FC 4",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Premiere FC 5",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Premiere FC 6",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Premiere FC 7",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Premiere FC 8",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Racer Network (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Racer Select (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Radio Turrialba TV Sports (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Rally TV (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Red Bull TV (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Red Bull TV BR (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Red Bull TV ES (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Red Bull TV US (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Rede CNT Salvador (576i)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Right Now Tv (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "RTP Mundo (504p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Samuel Goldwyn Classics (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "SKI TV (1080p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "SportsGrid (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "SportsTVPlus (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "SporTV (1280p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "SporTV 2 (1280p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "SporTV 2 Alternativo (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "SporTV 3 (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "SporTV Alternativo (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Stadium (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Super9 TV (480p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Swerve Combat (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Tele Rebelde (480p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Teletrak (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Tennis Channel (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "TennisChannel 2 (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Tigo Sports (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Tigo Sports (720p) [Geo-blocked]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Tigo Sports (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Tigo Sports (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Tigo Sports TV El Salvador (720p) [Geo-blocked]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Tigo Sports+",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "TNC Sports (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Tour Spot TV (1280p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "TSN The Ocho (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Turf Movil (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "TV BRICS Portuguese (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "TV Cuatro 4.3 (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "TV Golfo Uraba",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "TVMatic Fight (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "TVS Bowling Network (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "TVS Boxing (360p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "TVS Classic Sports (360p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "TVS Sports (720p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "TVS Sports Bureau (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "TVS Turbo (360p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "TVS Women Sports (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "TyC Sports (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "TyC Sports USA",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Unbeaten Sports Channel (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "USA Network (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "W14DK-D 14.5 All Sports Television Network",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "WFLD-DT1 (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "WFTX News Fort Myers FL (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Willow (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Willow Sports (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Win Sports (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Win+ Futbol",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Women's Sports Network (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "World Poker Tour (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "WTVT-DT1 (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "WXXV-TV News (Biloxi MS) (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Zoy TV Sports 1 (1080p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "\u0422\u041d\u0422 International (480p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "11 Kanal (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": ":\u0160port (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "A Spor (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "ACI Sport TV (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Adjarasport 1",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Africa 24 Sport (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Alfa Sport (1080p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "AntenaSport (1280p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Arena Fight (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Arena Sport 1 (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Arena Sport 1 (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Arena Sport 1 (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Arena Sport 1",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Arena Sport 1 Premium (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Arena Sport 2 (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Arena Sport 2 (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Arena Sport 2 (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Arena Sport 2",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Arena Sport 2 Premium (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Arena Sport 3 (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Arena Sport 3 (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Arena Sport 3 (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Arena Sport 3 Premium (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Arena Sport 4 (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Arena Sport 4 (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Arena Sport 4 (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Arena Sport 4 Premium (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Arena Sport 5 (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Arena Sport 5 (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Arena Sport 5 BH (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Arena Sport 5 Premium",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Arena Sport 6 (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Arena Sport 6 (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Arena Sport 7 (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Arena Sport 7 (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Arena Sport 8 (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Arena Sport 8 (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Arena Sport 9 (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Arena Sport 9 (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Arena Sport 10 (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Arena Sport 10 (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Arena Sport Adrenalin (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Arena Sport Premium 1 BH (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Arena Sport Premium 2 BH (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Arena Sport Premium 3 BH (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Arena Sport Tenis (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "ATG Live (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "ATR (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Barca TV",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Canal+ Foot",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Canal+ Sport (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "CBC Sport HD [Geo-blocked]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "CNBC Mongolia (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "\u010cT Sport (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "DAZN Combat (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "DAZN Combat (684p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "DAZN Darts x Pluto TV",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "DAZN Handball x Pluto TV",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "DAZN Heldinnen x Pluto TV",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Digi Sport 1 [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Digi Sport 1 HD",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Digi Sport 2 [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Digi Sport 2 HD",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Digi Sport 3 [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Digi Sport 3 HD",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Digi Sport 4",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Equalympic (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Equidia (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "ERT Sports 1 (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "ERT Sports 2 (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Esport3 (1080p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Esport3 (1080p) [Geo-blocked]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Euronews Portuguese (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Extreme Sports Channel Polska",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Fast&FunBox (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "FB TV",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "FIFA+ (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "FIFA+ French (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "FIFA+ German (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "FIFA+ Italy (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "FIFA+ Portuguese (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "FIFA+ Spain (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "FIFA+ Women (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Fight Klub",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "FightBox",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "FightBox",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Fox (1080p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "FUEL TV (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "GLORY Kickboxing (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Gol Classics (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Gold TV (576p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Gold TV Sat (576p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "G\u00f3lya TV (480p) [Geo-blocked]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Horse TV (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "HTSpor TV (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Ideaal TV (480p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "INTROUBLE (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "K19",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "KHL (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "KHL Prime (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "KOZOOM TV (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "L'Equipe (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "LaLiga Hypermotion (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "LaLiga TV",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "L\u00f3verseny k\u00f6zvet\u00edt\u00e9s (420p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "LRT Plius (1080p) [Geo-blocked]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "M4 Sport",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "M-Net Sport (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "MadeinBO TV (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Match! Strana (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Max Sport 1",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Max Sport 2",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Max Sport 3",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Max Sport 4",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "MEGOGO Sport [Geo-blocked]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "MMA TV.com (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Monster Jam (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "More Than Sports TV (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Mosfilm Gold Collection (576p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "MUTV (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Nautical Channel (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "\u00d3\u010dko Gold (540p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Olympic Channel [Geo-blocked]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "PFL MMA (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Pluto TV Fishing",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Pluto TV H\u00e5ndbold Highlights",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Pluto TV H\u00e5ndbold Live",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Pluto TV Handboll Highlights",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Pluto TV Handboll Live",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Pluto TV Snooker 900 (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Pluto TV Snooker 900 (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Pluto TV Snooker 900 (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Pluto TV Snooker 900 (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Pluto TV Snooker 900 (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Pluto TV Snooker 900 (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Pluto TV Snooker 900 (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Pluto TV Snooker 900 (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Pluto TV Sport",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Pluto TV Sport",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Pluto TV Sport",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Pluto TV Sport",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Polsat Sport 1 (1080p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Polsat Sport 2 (1080p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Polsat Sport 3 (1080p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Polsat Sport Fight (1080p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Polsat Sport Premium 1 (1080p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Polsat Sport Premium 2 (1080p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Power Hit Radio (576p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "QazSport (480p) [Geo-blocked]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "RACER International (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Racer Network (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Racer Select (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Rai Sport HD (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Realitatea Sportiva (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Realmadrid TV (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Red Bull TV (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Red Bull TV (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Red Bull TV DE (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Red Bull TV ES (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Red Bull TV UK (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "RTL Gold (576p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "RTL Gold (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "RTP 1 (720p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "RTP 2 (720p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "RTP A\u00e7ores (720p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "RTP A\u00e7ores (504p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "RTP Madeira (504p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "RTP Mem\u00f3ria (504p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "RTP Mundo (504p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "RTP Noticias (720p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "RTP Noticias (504p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "RTSH Sport (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "S Sport",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "S Sport 2",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "San Marino RTV Sport (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "SAT.1 Gold (576p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "SKI TV (1080p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "SOS Kanal Plus (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Sport 1 (1280p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Sport Klub (1080p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Sport TV1",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Sport TV5",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Sport TV7",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Sportitalia (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Sportitalia 24 (720p) [Geo-blocked]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Sportitalia Motori (720p) [Geo-blocked]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Sportitalia Solocalcio (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Sports TV (720p) [Geo-blocked]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Strongman (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Strongman Champions League (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Strongman Champions League (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "SuperTennis (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Suspilne. Sport",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Tabii Spor 6 (720p) [Geo-blocked]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "talkSPORT (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Teledeporte (720p) [Geo-blocked]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "The Cycling Channel",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "TJK TV (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "TJK TV 2 (1080p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "TNT Kids (288p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "TR Sport (480p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Trace Sport Stars (Australia) (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "TRK Ildana (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "TRT Spor (1080p) [Geo-blocked]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "TRT Spor Yildiz (1080p) [Geo-blocked]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "TV Ingolstadt (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "TV Veseljak Golica HD",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "TVMsport+ (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "TVP Sport (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "TVR Sport",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "V Sport Golf [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Viaplay TV (Finland) (720p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "viju+ Sport",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "VITAL Drive",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "World of Freesports (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "World Poker Tour",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "World Poker Tour (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "World Poker Tour (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Ziggo Sport",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Ziggo Sport 2",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Ziggo Sport 3",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "\u0410\u0441\u0442\u0440\u0430\u0445\u0430\u043d\u044c.Ru Sport (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "\u0411\u0435\u043b\u0430\u0440\u0443\u0441\u044c 5 (1080p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "\u0411\u0435\u043b\u0430\u0440\u0443\u0441\u044c 5 \u0418\u043d\u0442\u0435\u0440\u043d\u0435\u0442 (1080p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "\u0411\u043e\u043a\u0441 \u0422\u0412 (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "\u041c\u0410\u0422\u0427! \u0410\u0440\u0435\u043d\u0430 (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "\u041c\u0410\u0422\u0427! \u0411\u043e\u0435\u0446 (576p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "\u041c\u0410\u0422\u0427! \u0418\u0433\u0440\u0430 (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "\u041c\u0430\u0442\u0447! \u041f\u043b\u0430\u043d\u0435\u0442\u0430 (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "\u041f\u0440\u0430\u0432\u0434\u0430\u0422\u0423\u0422 (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439 \u042d\u043a\u0441\u0442\u0440\u0438\u043c (576p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "\u0421\u0422\u0410\u0420\u0422 \u0422\u0440\u0438\u0443\u043c\u0444",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "\u0421\u0444\u0435\u0440\u0430-\u0422\u0412 (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "\u0422\u041d\u04224 (576p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "\u0422\u041d\u04224 International (576p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "\u0422\u041d\u0422 (+4) (576p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "\u0422\u041d\u0422 International (480p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "\u0422\u044e\u0441\u043e (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "\u0423\u0422\u0420\u041a \u0421\u043f\u043e\u0440\u0442 (480p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "\u0424\u0443\u0442\u0431\u043e\u043b (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "A Spor (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Adjarasport 1",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Al Iraqia Sport (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Alfa Sport (1080p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Alkass Five (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Alkass Four (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Alkass One (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Alkass Seven (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Alkass SHOOF (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Alkass SHOOF 2 (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Alkass Six (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Alkass Three (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Alkass Two (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Bahrain Sports 1 (720p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Bahrain Sports 2 (720p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Bloomberg TV Mongolia HD (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "BTN TV (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "CBC Sport HD [Geo-blocked]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "CCTV-16 (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "CCTV-Billiards (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "CCTV-Golf & Tennis (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "CCTV-Storm Football (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "CNBC Mongolia (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "DD Sports SD (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "\u0110\u1ed3ng Nai 2 (480p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "ETV (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Fast&FunBox (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "FB TV",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "FIFA+ (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "FIFA+ Spain (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "FIFA+ Women (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "FightBox",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "FightBox",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Fuel TV (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "FUEL TV (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Futbol (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "GEM Fit",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "GEM Sport",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "GLORY Kickboxing (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Gold Star",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Goldmines (576p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Goldmines 2 (576p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Goldmines Bollywood (576p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Goldmines Movies (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Golkhane TV",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "HTSpor TV (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "HTV Th\u1ec3 thao (1080p) [Geo-blocked]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "IRIB3",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Jordan Sport (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "KHL (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "KHL Prime (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "KSA Sports 1 (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "KSA Sports 2 (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "KSA Sports 3 (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "KTV Sport (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "KTV Sport Plus (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Match! Strana (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "MAX Sports",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "MMA TV.com (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "MNB Sport (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "MNB \u041c\u043e\u043d\u0433\u043e\u043b\u044b\u043d \u041c\u044d\u0434\u044d\u044d (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "MNC (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Mosfilm Gold Collection (576p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Nablus TV (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "National Gold TV",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Nei Monggol TV (960p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Nei Monggol TV 2 Mongolian Culture Channel",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Oman Sports TV (1080p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "One Golf (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Paras Gold (576p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Persiana Fight",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Premier Sports (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Premier Sports 2 (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "PRO Sport International",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "PTC Punjabi Gold (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "PTV Sports (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "QazSport (480p) [Geo-blocked]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "R Plus Gold (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "RACER International (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Racer Network (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Racer Select (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Red Bull TV (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Red Bull TV (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "RTP Mundo (504p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "S Sport",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "S Sport 2",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Sabz",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Sangaji TV (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Sharjah Sports (1080p) [Geo-blocked]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Sin Po TV",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "SKI TV (1080p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Sony Sports Ten 3 Hindi (576p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Sport",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Sports TV (720p) [Geo-blocked]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "SPOTV (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "SPOTV 2 (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Star Gold 2 (576p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Star Gold Romance (576p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Star Gold Select HD (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Star Gold Thrills (576p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Star Maa Gold (576p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Star Sports 1 (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Star Sports 1 HD (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Star Sports 1 Hindi (576p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Star Sports 2 HD (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Star Sports 2 Hindi HD (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "T Sports (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Tabii Spor 6 (720p) [Geo-blocked]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Talent TV (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "TAP Edge (480p) [Geo-blocked]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Ten Sports Pakistan",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "TJK TV (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "TJK TV 2 (1080p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "TRT Spor (1080p) [Geo-blocked]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "TRT Spor Yildiz (1080p) [Geo-blocked]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "T\u00fcrkmenistan Sport (406p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "TVRI Sport (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Varzesh TV",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "viju+ Sport",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "VITAL Drive",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "VTV6 (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "\u0410\u0441\u0442\u0440\u0430\u0445\u0430\u043d\u044c.Ru Sport (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "\u0411\u043e\u043a\u0441 \u0422\u0412 (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "\u041c\u0410\u0422\u0427! \u0410\u0440\u0435\u043d\u0430 (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "\u041c\u0410\u0422\u0427! \u0411\u043e\u0435\u0446 (576p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "\u041c\u0410\u0422\u0427! \u0418\u0433\u0440\u0430 (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "\u041c\u0430\u0442\u0447! \u041f\u043b\u0430\u043d\u0435\u0442\u0430 (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439 \u042d\u043a\u0441\u0442\u0440\u0438\u043c (576p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "\u0421\u0422\u0410\u0420\u0422 \u0422\u0440\u0438\u0443\u043c\u0444",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "\u0422\u041d\u04224 (576p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "\u0422\u041d\u0422 (+4) (576p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "\u0423\u0422\u0420\u041a \u0421\u043f\u043e\u0440\u0442 (480p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "\u0424\u0443\u0442\u0431\u043e\u043b (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "\u5c71\u4e1c\u4f53\u80b2 (1080p) [Geo-blocked]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "\u6c5f\u82cf\u4f53\u80b2 (576p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "\u91d1\u9e70\u5361\u901a (576p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "2M Monde (360p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "ADO TV (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Africa 24 Sport (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Arryadia (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Arryadia (480p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Arryadia HD 1 (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Arryadia HD 2 (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Arryadia HD 3 (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Arryadia HD TNT (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "BTN TV (480p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "El-Heddaf TV (1080i)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "ETVN (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "FIFA+ (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "FightBox",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "FightBox",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "FUEL TV (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "GTN TV (1080p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "KK TV Angola (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Racer Network (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Racer Select (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Red Bull TV (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Red Bull TV (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "RTI La 3 (1080p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "RTP \u00c1frica (504p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "SKI TV (1080p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Sports Connect (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Cricket Gold (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "FIFA+ (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Fuel TV (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Racer Network (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Racer Select (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Racing.com (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Red Bull TV (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Red Bull TV AU (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "RTP Mundo (504p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "SKI TV (1080p) [Not 24/7]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Sky Racing 1 (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Sky Racing 2 (720p)",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "Sky Thoroughbred Central (720p) [Geo-blocked]",
+      "stream": "vincular_source",
+      "protected": true
+    },
+    {
+      "label": "TNTV (1080p)",
+      "stream": "vincular_source",
+      "protected": true
+    }
+  ],
+  "Eventos_Especiales": [],
+  "TV_General": []
+}
