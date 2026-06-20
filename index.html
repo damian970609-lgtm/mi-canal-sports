@@ -3,63 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MI CANAL SPORTS TV | LIVE</title>
+    <title>MAESTRO SPORTS | LIVE</title>
+    
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="https://cdn-icons-png.flaticon.com/512/53/53283.png">
+    <meta name="theme-color" content="#000000">
+    <meta name="mobile-web-app-capable" content="yes">
+    
     <link href="https://vjs.zencdn.net/8.3.0/video-js.css" rel="stylesheet" />
+    
     <style>
-        body { margin: 0; background: #000; color: #fff; font-family: sans-serif; display: flex; flex-direction: column; align-items: center; }
-        .player-container { width: 100%; max-width: 950px; margin: 20px auto; padding: 10px; }
-        .vjs-theme-forest .vjs-big-play-button { border-radius: 50%; }
-        .report-btn { display: block; margin: 20px auto; background: #111; color: #ff4444; border: 1px solid #ff4444; padding: 10px 25px; cursor: pointer; border-radius: 20px; transition: 0.3s; }
-        .report-btn:hover { background: #ff4444; color: #fff; }
+        body { margin: 0; background: #0a0a0a; color: #fff; font-family: 'Segoe UI', sans-serif; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh; }
+        .card { background: #161616; padding: 20px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); width: 90%; max-width: 800px; text-align: center; }
+        .video-js { width: 100%; border-radius: 10px; overflow: hidden; background-color: #000; }
+        .controls { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-top: 20px; }
+        button { padding: 14px; border: none; border-radius: 8px; cursor: pointer; font-weight: bold; transition: 0.3s; font-size: 14px; }
+        .btn-reload { background: #33cc33; color: white; }
+        .btn-report { background: #ff3333; color: white; }
+        button:hover { opacity: 0.9; transform: translateY(-2px); }
     </style>
 </head>
 <body>
 
-    <div class="player-container">
-        <video id="mi-video" class="video-js vjs-big-play-centered vjs-theme-forest" controls preload="metadata" playsinline>
+    <div class="card">
+        <h2 id="status-text">MAESTRO DE FÚTBOL</h2>
+        <video id="mi-video" class="video-js vjs-big-play-centered" controls preload="auto" playsinline>
             <source id="fuente-video" src="" type="application/x-mpegURL">
         </video>
-        <button class="report-btn" onclick="reportarCanal()">⚠️ REPORTAR CANAL</button>
+        <div class="controls">
+            <button class="btn-reload" onclick="recargarVideo()">🔄 RECARGAR</button>
+            <button class="btn-report" onclick="reportarCanal()">⚠️ REPORTAR FALLA</button>
+        </div>
     </div>
 
     <script src="https://vjs.zencdn.net/8.3.0/video.min.js"></script>
     <script>
-        let canalPrincipal = "";
-        let canalRespaldo = "";
-
+        // Configuración ABR para redes inestables
         const player = videojs('mi-video', {
-            html5: { hls: { overrideNative: true, bandwidth: 2000000 } }
-        });
-
-        // 1. CARGA SEGURA DESDE JSON
-        fetch('canales.json')
-            .then(response => response.json())
-            .then(data => {
-                canalPrincipal = data.principal;
-                canalRespaldo = data.respaldo;
-                if(canalPrincipal) player.src({ src: canalPrincipal, type: 'application/x-mpegURL' });
-            })
-            .catch(err => console.error("Error cargando canales:", err));
-
-        // 2. SISTEMA DE FAILOVER (RESPALDO AUTOMÁTICO)
-        player.on('error', () => {
-            const currentSrc = player.src();
-            if (currentSrc === canalPrincipal && canalRespaldo) {
-                console.log("Error en principal, cambiando a respaldo...");
-                player.src({ src: canalRespaldo, type: 'application/x-mpegURL' });
-                player.play();
+            html5: {
+                hls: {
+                    overrideNative: true,
+                    smoothQualityChange: true,
+                    enableLowInitialPlaylist: true
+                }
             }
         });
 
-        // 3. REPORTE A TELEGRAM
-        function reportarCanal() {
-            const user = "TU_USUARIO"; // <-- RECUERDA PONER TU USER AQUÍ
-            window.open(`https://t.me/${user}?text=Falla en: ${encodeURIComponent(window.location.href)}`, '_blank');
+        // Carga de canales desde el JSON automatizado
+        fetch('canales.json')
+            .then(response => response.json())
+            .then(data => {
+                if(data.principal) {
+                    player.src({ src: data.principal, type: 'application/x-mpegURL' });
+                    document.getElementById('status-text').innerText = "TRANSMITIENDO EN VIVO";
+                }
+            })
+            .catch(err => {
+                console.error("Error:", err);
+                document.getElementById('status-text').innerText = "ERROR AL CONECTAR";
+            });
+
+        // Fallback automático a respaldo
+        player.on('error', () => {
+            fetch('canales.json').then(r => r.json()).then(data => {
+                if (data.respaldo) {
+                    player.src({ src: data.respaldo, type: 'application/x-mpegURL' });
+                    player.play();
+                }
+            });
+        });
+
+        function recargarVideo() {
+            player.src(player.src());
+            player.play();
         }
 
-        // 4. PWA (Instalable)
+        function reportarCanal() {
+            // Reemplaza TU_USUARIO
+            window.open(`https://t.me/TU_USUARIO?text=Falla en: ${encodeURIComponent(window.location.href)}`, '_blank');
+        }
+
+        // PWA Service Worker
         if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('/sw.js').catch(e => console.log(e));
+            navigator.serviceWorker.register('/sw.js');
         }
     </script>
 </body>
