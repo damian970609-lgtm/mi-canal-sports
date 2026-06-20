@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MI CANAL SPORTS TV | LIVE</title>
+    <link href="https://vjs.zencdn.net/8.3.0/video-js.css" rel="stylesheet" />
+    <style>
+        body { margin: 0; background: #000; color: #fff; font-family: sans-serif; display: flex; flex-direction: column; align-items: center; }
+        .player-container { width: 100%; max-width: 950px; margin: 20px auto; padding: 10px; }
+        .vjs-theme-forest .vjs-big-play-button { border-radius: 50%; }
+        .report-btn { display: block; margin: 20px auto; background: #111; color: #ff4444; border: 1px solid #ff4444; padding: 10px 25px; cursor: pointer; border-radius: 20px; transition: 0.3s; }
+        .report-btn:hover { background: #ff4444; color: #fff; }
+    </style>
+</head>
+<body>
+
+    <div class="player-container">
+        <video id="mi-video" class="video-js vjs-big-play-centered vjs-theme-forest" controls preload="metadata" playsinline>
+            <source id="fuente-video" src="" type="application/x-mpegURL">
+        </video>
+        <button class="report-btn" onclick="reportarCanal()">⚠️ REPORTAR CANAL</button>
+    </div>
+
+    <script src="https://vjs.zencdn.net/8.3.0/video.min.js"></script>
+    <script>
+        let canalPrincipal = "";
+        let canalRespaldo = "";
+
+        const player = videojs('mi-video', {
+            html5: { hls: { overrideNative: true, bandwidth: 2000000 } }
+        });
+
+        // 1. CARGA SEGURA DESDE JSON
+        fetch('canales.json')
+            .then(response => response.json())
+            .then(data => {
+                canalPrincipal = data.principal;
+                canalRespaldo = data.respaldo;
+                if(canalPrincipal) player.src({ src: canalPrincipal, type: 'application/x-mpegURL' });
+            })
+            .catch(err => console.error("Error cargando canales:", err));
+
+        // 2. SISTEMA DE FAILOVER (RESPALDO AUTOMÁTICO)
+        player.on('error', () => {
+            const currentSrc = player.src();
+            if (currentSrc === canalPrincipal && canalRespaldo) {
+                console.log("Error en principal, cambiando a respaldo...");
+                player.src({ src: canalRespaldo, type: 'application/x-mpegURL' });
+                player.play();
+            }
+        });
+
+        // 3. REPORTE A TELEGRAM
+        function reportarCanal() {
+            const user = "TU_USUARIO"; // <-- RECUERDA PONER TU USER AQUÍ
+            window.open(`https://t.me/${user}?text=Falla en: ${encodeURIComponent(window.location.href)}`, '_blank');
+        }
+
+        // 4. PWA (Instalable)
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/sw.js').catch(e => console.log(e));
+        }
+    </script>
+</body>
+</html>
