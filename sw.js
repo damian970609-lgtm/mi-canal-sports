@@ -1,4 +1,4 @@
-const CACHE_NAME = 'maestro-sports-v1';
+const CACHE_NAME = 'maestro-sports-v2';
 const ASSETS = [
   '/',
   '/index.html',
@@ -25,11 +25,17 @@ self.addEventListener('activate', (e) => {
   );
 });
 
-// Fetch: Servir archivos desde caché si no hay internet
+// Fetch: Prioridad a la red para el JSON, caché para el resto
 self.addEventListener('fetch', (e) => {
-  e.respondWith(
-    caches.match(e.request).then((res) => {
-      return res || fetch(e.request);
-    })
-  );
+  if (e.request.url.includes('canales.json')) {
+    e.respondWith(
+      fetch(e.request).catch(() => caches.match(e.request))
+    );
+  } else {
+    e.respondWith(
+      caches.match(e.request).then((res) => {
+        return res || fetch(e.request);
+      })
+    );
+  }
 });
