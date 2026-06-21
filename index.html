@@ -38,7 +38,6 @@
 
     <script src="https://vjs.zencdn.net/8.3.0/video.min.js"></script>
     <script>
-        // Configuración ABR para redes inestables
         const player = videojs('mi-video', {
             html5: {
                 hls: {
@@ -49,13 +48,31 @@
             }
         });
 
-        // Carga de canales desde el JSON automatizado
+        // Lógica unificada de carga
         fetch('canales.json')
             .then(response => response.json())
             .then(data => {
-                if(data.principal) {
-                    player.src({ src: data.principal, type: 'application/x-mpegURL' });
+                let urlVideo = "";
+
+                // Prioridad 1: Canal principal
+                if (data.principal) {
+                    urlVideo = data.principal;
+                } 
+                // Prioridad 2: Respaldo
+                else if (data.respaldo) {
+                    urlVideo = data.respaldo;
+                }
+                // Prioridad 3: Primera fuente del arreglo
+                else if (data.fuentes_json && data.fuentes_json.length > 0) {
+                    urlVideo = data.fuentes_json[0];
+                }
+
+                if (urlVideo) {
+                    player.src({ src: urlVideo, type: 'application/x-mpegURL' });
                     document.getElementById('status-text').innerText = "TRANSMITIENDO EN VIVO";
+                    player.play();
+                } else {
+                    document.getElementById('status-text').innerText = "NO HAY FUENTES DISPONIBLES";
                 }
             })
             .catch(err => {
@@ -63,7 +80,7 @@
                 document.getElementById('status-text').innerText = "ERROR AL CONECTAR";
             });
 
-        // Fallback automático a respaldo
+        // Fallback automático si falla el video
         player.on('error', () => {
             fetch('canales.json').then(r => r.json()).then(data => {
                 if (data.respaldo) {
@@ -79,11 +96,10 @@
         }
 
         function reportarCanal() {
-            // Reemplaza TU_USUARIO
+            // Asegúrate de cambiar TU_USUARIO por tu ID real
             window.open(`https://t.me/TU_USUARIO?text=Falla en: ${encodeURIComponent(window.location.href)}`, '_blank');
         }
 
-        // PWA Service Worker
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('/sw.js');
         }
