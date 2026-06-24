@@ -1,8 +1,49 @@
 {
-    "metadata": {
-        "ultima_actualizacion": "2026-06-21 01:26:10",
-        "fuentes_consultadas": 1
+  "name": "Damian Fútbol en Vivo Oficial",
+  "short_name": "DamianFútbol",
+  "start_url": "index.html?utm_source=apk_launcher",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#CF142B",
+  "description": "Plataforma Premium de transmisiones de fútbol, noticias, feeds automatizados y videojuegos por Damian.",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "categories": [
+    "sports",
+    "entertainment",
+    "games"
+  ],
+  "shortcuts": [
+    {
+      "name": "Partidos en Vivo ⚽",
+      "url": "index.html?tab=live"
     },
-    "deportes_live": [],
-    "eventos": []
+    {
+      "name": "Feed Pro Automático 📊",
+      "url": "index.html?tab=feedauto"
+    },
+    {
+      "name": "Minijuego PlayMister 🎮",
+      "url": "index.html?tab=juego"
+    }
+  ],
+  "icons": [
+    {
+      "src": "56039.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "56040.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "55976.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }
+  ]
 }

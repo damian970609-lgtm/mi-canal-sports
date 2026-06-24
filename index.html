@@ -2,107 +2,188 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MAESTRO SPORTS | LIVE</title>
-    
-    <link rel="manifest" href="manifest.json">
-    <link rel="apple-touch-icon" href="https://cdn-icons-png.flaticon.com/512/53/53283.png">
-    <meta name="theme-color" content="#000000">
-    <meta name="mobile-web-app-capable" content="yes">
-    
-    <link href="https://vjs.zencdn.net/8.3.0/video-js.css" rel="stylesheet" />
-    
-    <style>
-        body { margin: 0; background: #0a0a0a; color: #fff; font-family: 'Segoe UI', sans-serif; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh; }
-        .card { background: #161616; padding: 20px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); width: 90%; max-width: 800px; text-align: center; }
-        .video-js { width: 100%; border-radius: 10px; overflow: hidden; background-color: #000; }
-        .controls { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-top: 20px; }
-        button { padding: 14px; border: none; border-radius: 8px; cursor: pointer; font-weight: bold; transition: 0.3s; font-size: 14px; }
-        .btn-reload { background: #33cc33; color: white; }
-        .btn-report { background: #ff3333; color: white; }
-        button:hover { opacity: 0.9; transform: translateY(-2px); }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Damian🇨🇺 Fútbol Pro</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="canales.json">
 </head>
 <body>
 
-    <div class="card">
-        <h2 id="status-text">MAESTRO DE FÚTBOL</h2>
-        <video id="mi-video" class="video-js vjs-big-play-centered" controls preload="auto" playsinline>
-            <source id="fuente-video" src="" type="application/x-mpegURL">
-        </video>
-        <div class="controls">
-            <button class="btn-reload" onclick="recargarVideo()">🔄 RECARGAR</button>
-            <button class="btn-report" onclick="reportarCanal()">⚠️ REPORTAR FALLA</button>
+    <!-- CABECERA PRINCIPAL -->
+    <header>
+        <div class="trust-badge" onclick="toqueSecreto()">
+            <span>🔒 Conexión Encriptada SSL</span> | <span>⚡ Servidor Oficial de Damian</span>
+        </div>
+        <h1 onclick="toqueSecreto()">Damian🇨🇺 Fútbol en Vivo <span style="font-size:0.8rem; opacity:0.3;">🔒</span></h1>
+        <p style="margin: 0 0 10px 0; font-size: 0.78rem; color: #cbd5e1;">© Plataforma Maestra de Contenido Deportivo</p>
+        
+        <div class="btn-group">
+            <button onclick="window.open('https://t.me/Damian_Futbol_en_Vivo', '_blank')" style="background:#0088cc; flex:1;">
+                Telegram Oficial 📢
+            </button>
+            <button onclick="alternarSeccionPrincipal('chat')" style="background:#059669; flex:1;">
+                Charla Segura 💬
+            </button>
+        </div>
+        
+        <!-- BOTÓN SECRETO PARA REVELAR EL PANEL -->
+        <button id="btn-admin-auto" onclick="activarModoCreador()" style="background:var(--gold); color:black; width:100%; margin-top:5px; display:none; font-size:0.85rem;">
+            🔑 Abrir Panel de Control Maestro (Modo Creador)
+        </button>
+    </header>
+
+    <!-- FRECUENCIA DE ACTUALIZACIÓN DE LA APK -->
+    <div class="update-badge">
+        📅 <strong>Frecuencia de Actualización APK:</strong> Cada 30 días.<br>
+        <span style="color: var(--gold); font-size: 0.75rem;">Mantenimiento Automático y Renovación de Certificados SSL Activos.</span>
+    </div>
+
+    <!-- PANEL DE ADMINISTRACIÓN COMPLETO (Sincronizador e Inyector) -->
+    <div class="admin-panel" id="panel-admin" style="display:none;">
+        <h3 style="margin-top:0; color:var(--gold); font-size:1.05rem;">👑 Panel de Control Inteligente</h3>
+        
+        <div class="btn-group" style="margin-bottom:10px;">
+            <button onclick="cambiarAdminSubtab('partidos')" style="background:#334155; padding:6px; flex:1;">🚀 Inyectar Web / Links</button>
+            <button onclick="cambiarAdminSubtab('noticias')" style="background:#334155; padding:6px; flex:1;">📰 Notas Manuales</button>
+            <button onclick="cambiarAdminSubtab('ips')" style="background:#334155; padding:6px; flex:1;">🌐 Whitelist IPs</button>
+        </div>
+
+        <!-- Subpanel 1: Clones, Pegar Enlaces e Inyección Directa -->
+        <div id="admin-subtab-partidos">
+            <p style="font-size:0.8rem; margin:0 0 5px 0; color:var(--gold); font-weight:bold;">⚡ OPCIÓN REQUERIDA: PEGAR ENLACE DE OTRA WEB O CANAL:</p>
+            <div style="display:flex; gap:6px; margin-bottom:15px;">
+                <input type="text" id="urlWebExternaInput" placeholder="Pega el enlace de la otra web aquí..." style="margin-bottom:0;">
+                <button onclick="cargarWebInmediata()" style="background:#22c55e; color:white; font-size:0.75rem; white-space:nowrap; padding:0 12px;">Cargar en mi APK</button>
+            </div>
+
+            <p style="font-size:0.8rem; margin:0 0 5px 0; color:#94a3b8; font-weight:bold;">📦 CARGAR AGENDA MASIVA (Línea por línea):</p>
+            <textarea id="agenda-input" placeholder="Pega agenda masiva (un partido por línea)..."></textarea>
+            <button onclick="procesarAgenda()" style="width:100%; margin-bottom:15px; background:var(--blue);">Cargar Agenda Plana</button>
+            
+            <p style="font-size:0.8rem; margin:0 0 5px 0; color:#94a3b8; font-weight:bold;">⚽ AGREGAR PARTIDO TRADICIONAL (M3U8 / IFRAME):</p>
+            <input type="text" id="urlOriginal" placeholder="Enlace directo M3U8 o Iframe...">
+            <select id="categoria">
+                <option value="Champions">🏆 Champions League</option>
+                <option value="Copa Chile">🇨🇱 Copa Chile</option>
+                <option value="Amistosos">🔥 Amistosos Internacionales</option>
+                <option value="Otros">⚽ Otras Ligas</option>
+            </select>
+            <button onclick="procesarPartido()" style="width:100%; background:var(--green);">🚀 Publicar Transmisión</button>
+        </div>
+
+        <!-- Subpanel 2: Noticias Manuales -->
+        <div id="admin-subtab-noticias" style="display:none;">
+            <input type="text" id="news-titulo" placeholder="Título de la noticia...">
+            <textarea id="news-contenido" placeholder="Contenido o código de video iframe..."></textarea>
+            <input type="text" id="news-imagen" placeholder="URL de imagen destacada...">
+            <button onclick="publicarNoticia()" style="width:100%; background:#22c55e;">📰 Publicar Noticia</button>
+        </div>
+
+        <!-- Subpanel 3: IPs Autorizadas -->
+        <div id="admin-subtab-ips" style="display:none;">
+            <textarea id="ip-whitelist-input" placeholder="IPs Autorizadas (Una por línea)..." style="height:60px;"></textarea>
+            <button onclick="guardarListaIPs()" style="width:100%; background:var(--blue);">💾 Guardar IPs</button>
+        </div>
+
+        <hr style="border:1px solid #1e293b; margin:12px 0;">
+        <div class="btn-group">
+            <button onclick="subirServidorCloud()" style="background:#a855f7; flex:1;">☁️ Guardar Cambios en la Nube</button>
+            <button onclick="exportarDatos()" style="background:#64748b; padding:8px;">📥 Copia</button>
+            <button onclick="importarDatos()" style="background:#64748b; padding:8px;">📤 Pega</button>
         </div>
     </div>
 
-    <script src="https://vjs.zencdn.net/8.3.0/video.min.js"></script>
-    <script>
-        const player = videojs('mi-video', {
-            html5: {
-                hls: {
-                    overrideNative: true,
-                    smoothQualityChange: true,
-                    enableLowInitialPlaylist: true
-                }
-            }
-        });
+    <!-- TABS DE NAVEGACIÓN PRINCIPALES -->
+    <div class="tabs" style="margin-top:10px;">
+        <button class="tab-btn active" id="main-tab-live" onclick="alternarSeccionPrincipal('live')">⚽ En Vivo</button>
+        <button class="tab-btn" id="main-tab-feedauto" onclick="alternarSeccionPrincipal('feedauto')">📊 Feed Automatizado</button>
+        <button class="tab-btn" id="main-tab-juego" onclick="alternarSeccionPrincipal('juego')">🎮 Juego</button>
+        <button class="tab-btn" id="main-tab-news" onclick="alternarSeccionPrincipal('news')">📰 Noticias Manuales</button>
+    </div>
 
-        // Lógica unificada de carga
-        fetch('canales.json')
-            .then(response => response.json())
-            .then(data => {
-                let urlVideo = "";
+    <!-- SECCIÓN 1: PARTIDOS EN VIVO -->
+    <div id="modulo-partidos">
+        <div class="search-panel">
+            <input type="text" id="buscador" onkeyup="renderizarPartidos()" placeholder="Buscar tu partido favorito...">
+        </div>
+        <div class="tabs">
+            <button class="tab-btn active" id="cat-Todos" onclick="filtrarCategoria('Todos')">✨ Todos</button>
+            <button class="tab-btn" id="cat-Champions" onclick="filtrarCategoria('Champions')">🏆 Champions</button>
+            <button class="tab-btn" id="cat-Copa Chile" onclick="filtrarCategoria('Copa Chile')">🇨🇱 Copa Chile</button>
+            <button class="tab-btn" id="cat-Amistosos" onclick="filtrarCategoria('Amistosos')">🔥 Amistosos</button>
+        </div>
+        <div id="lista-partidos"></div>
+    </div>
 
-                // Prioridad 1: Canal principal
-                if (data.principal) {
-                    urlVideo = data.principal;
-                } 
-                // Prioridad 2: Respaldo
-                else if (data.respaldo) {
-                    urlVideo = data.respaldo;
-                }
-                // Prioridad 3: Primera fuente del arreglo
-                else if (data.fuentes_json && data.fuentes_json.length > 0) {
-                    urlVideo = data.fuentes_json[0];
-                }
+    <!-- SECCIÓN 2: FEED AUTOMATIZADO DE FUENTES SOLICITADAS -->
+    <div id="modulo-feed-auto" style="display:none;">
+        <div class="section-title">📊 Hub Global Inteligente de Fútbol</div>
+        <div class="tabs" style="margin-bottom:10px;">
+            <button class="tab-btn active" id="fhub-agenda" onclick="cambiarOrigenFeed('agenda', 'https://futbol-libres.su/agenda/#')">📅 Agenda Libres</button>
+            <button class="tab-btn" id="fhub-marca" onclick="cambiarOrigenFeed('marca', 'https://www.marca.com/')">📰 Marca</button>
+            <button class="tab-btn" id="fhub-mundo" onclick="cambiarOrigenFeed('mundo', 'https://www.mundodeportivo.com/')">⚽ Mundo Dep.</button>
+            <button class="tab-btn" id="fhub-sofa" onclick="cambiarOrigenFeed('sofa', 'https://www.sofascore.com/')">📈 SofaScore</button>
+            <button class="tab-btn" id="fhub-365" onclick="cambiarOrigenFeed('365', 'https://www.365scores.com/')">⏱️ 365Scores</button>
+        </div>
+        <div style="padding:0 12px;">
+            <iframe id="iframe-feed-auto" src="https://futbol-libres.su/agenda/#" class="embedded-container"></iframe>
+        </div>
+    </div>
 
-                if (urlVideo) {
-                    player.src({ src: urlVideo, type: 'application/x-mpegURL' });
-                    document.getElementById('status-text').innerText = "TRANSMITIENDO EN VIVO";
-                    player.play();
-                } else {
-                    document.getElementById('status-text').innerText = "NO HAY FUENTES DISPONIBLES";
-                }
-            })
-            .catch(err => {
-                console.error("Error:", err);
-                document.getElementById('status-text').innerText = "ERROR AL CONECTAR";
-            });
+    <!-- SECCIÓN 3: APARTADO DE VIDEOJUEGO INTERACTIVO -->
+    <div id="modulo-juego" style="display:none;">
+        <div class="section-title">🎮 Zona de Entretenimiento PlayMister</div>
+        <div style="padding:0 12px;">
+            <iframe src="https://www.playmister.com/es/" class="embedded-container" style="height:75vh;" sandbox="allow-scripts allow-same-origin allow-forms"></iframe>
+        </div>
+    </div>
 
-        // Fallback automático si falla el video
-        player.on('error', () => {
-            fetch('canales.json').then(r => r.json()).then(data => {
-                if (data.respaldo) {
-                    player.src({ src: data.respaldo, type: 'application/x-mpegURL' });
-                    player.play();
-                }
-            });
-        });
+    <!-- SECCIÓN 4: FEED DE NOTICIAS MANUALES -->
+    <div id="modulo-noticias" style="display:none;">
+        <div class="section-title">📰 Resúmenes y Notas Editadas por Damian</div>
+        <div id="feed-noticias-contenedor"></div>
+    </div>
 
-        function recargarVideo() {
-            player.src(player.src());
-            player.play();
-        }
+    <!-- SECCIÓN 5: CHAT DE HINCHAS PRIVADO -->
+    <div id="modulo-chat" style="display:none;">
+        <div class="section-title">💬 Sala de Chat Protegida</div>
+        <div class="chat-container">
+            <div class="chat-status-bar">
+                <span id="chat-ip-display">🌐 Tu IP: Detectando...</span>
+                <span id="chat-status-badge" style="background:#ef4444; padding:2px 8px; border-radius:10px; font-size:0.7rem; font-weight:bold;">❌ NO VERIFICADO</span>
+            </div>
+            <div class="chat-messages" id="chat-box-mensajes"></div>
+            <div class="chat-input-area">
+                <input type="text" id="chat-mensaje-txt" placeholder="Escribe..." disabled>
+                <button onclick="enviarMensajeChat()" id="chat-send-btn" style="background:#22c55e;" disabled>▶️</button>
+            </div>
+        </div>
+    </div>
 
-        function reportarCanal() {
-            // Asegúrate de cambiar TU_USUARIO por tu ID real
-            window.open(`https://t.me/TU_USUARIO?text=Falla en: ${encodeURIComponent(window.location.href)}`, '_blank');
-        }
+    <!-- VISOR EN VIVO CON CAPA REMOVEDORA DE ANUNCIOS -->
+    <div id="visor-contenedor" style="display:none;">
+        <div class="visor-header">
+            <span id="visor-titulo" style="font-weight:bold; font-size:0.9rem; color:white;">⚽ Señal Oficial</span>
+            <div class="visor-controls">
+                <button onclick="recargarVideo()" style="background:#334155; padding:6px 12px; font-size:0.8rem;">🔄 Recargar</button>
+                <button onclick="cerrarVisor()" style="background:var(--red); padding:6px 12px; font-size:0.8rem;">❌ Salir</button>
+            </div>
+        </div>
+        <div id="marca-capa">
+            <div class="loader"></div>
+            <p style="font-weight:bold; margin:5px 0;">🛡️ Removiendo Anuncios e Inicializando Buffer...</p>
+        </div>
+        <div class="iframe-viewport-shield">
+            <div class="iframe-click-blocker"></div>
+            <iframe id="visor-iframe" src="" allowfullscreen sandbox="allow-scripts allow-same-origin allow-forms"></iframe>
+        </div>
+    </div>
 
-        if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('/sw.js');
-        }
-    </script>
+    <footer>
+        <p style="margin:2px 0; font-weight:bold; color:#94a3b8;">Diseñado al 100% por Damian🇨🇺</p>
+        <p style="font-size:0.65rem; color:#475569;">Build v2.7.0 Direct-Link Engine</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
